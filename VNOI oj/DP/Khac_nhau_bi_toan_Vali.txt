@@ -1,0 +1,7 @@
+ L[i,j]=max(L(i−1,j−Ai)+Bi,L(i−1,j)).: chọn 1 lần
+L(i,t)=max(L(i−1,t),L(i,t−Ai)+Bi) nếu t≥Ai : chọn nhiều lần
+
+
+max của:
+	   L(i-1,j) va L(i-1,j-a[i])+b[i] : 1 lan
+	   L[i-1,j) va L(i, j - a[i]) + b[i]) : nhieu lan
